@@ -1,0 +1,49 @@
+title: "My Blog"
+description_short: "Personal Blog"
+hero_title: "Writing on code, tech, and ideas"
+url: "https://yourusername.github.io"
+baseurl: ""
+lang: en
+
+# Author
+author:
+  name: "Your Name"
+  email: "you@example.com"
+
+# Social links
+github_username: yourusername
+
+# Tags displayed in the hero
+featured_tags:
+  - Technology
+  - Code
+  - Research
+  - Open Source
+
+# Jekyll
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
