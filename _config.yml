@@ -42,7 +42,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# Exclude
+exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
